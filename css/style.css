@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.clearfix{
+   /* visibility: hidden;*/
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+
+}
+
+html{
+    height:100%;
+
+}
+body {
+    width:100%;
+}
+
+header{
+    height:105px;
+}
+
+nav ul{
+    float:right;
+    margin-right:220px;
+    margin-top: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 45px;
+
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a, .info-choice p{
+    text-decoration: none;
+    color:#464646;
+    font-family: Calibri;
+    font-size: 18px;
+    font-style: italic;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color:#ff9a50;
+}
+
+.owerall{
+    height:123px;
+    background:#ff9a50;
+    position: relative;
+    z-index: 1;
+}
+
+.descript{
+    width:500px;
+    float:right;
+    margin-right: 150px;
+    margin-top:15px;
+}
+
+.owerall-second span, .descript span{
+    font-size: 34px;
+    color:#fff;
+    font-family:Calibri;
+    font-style: italic;
+}
+
+section.picture{
+    position: relative;
+    height:485px;
+}
+
+img.one{
+    float:right;
+    margin-top:-10px;
+}
+
+img.second{
+    position: absolute;
+    right:540px;
+   top:70px;
+}
+
+img.third{
+    position: absolute;
+    left:800px;
+    bottom:10px;
+
+}
+img.fourth{
+    /*margin-left:300px;
+    margin-top:-100px;*/
+    position: absolute;
+    z-index: 2;
+    top:-150px;
+    left:200px;
+}
+
+section.slider-calendar{
+    height:305px;  
+}
+
+div.calendar{
+    height: inherit;
+    width:585px;
+    background: url(../img/calendar.jpg) no-repeat center center;
+    background-size: cover;
+    float:right;
+}
+
+div.slider{
+    height: inherit;
+    width:815px;
+    float:left;
+    background: #e0e0e0;
+}
+/*section.slider-calendar*/ .owerall-second{
+    height: 72px;
+    background:#ff9a50;
+    position: relative;
+}
+
+.owerall-second span{
+    line-height: 65px;
+}
+.design-choices{
+   height:700px;
+}
+
+.example{
+
+}
+
+.example img{
+    width:700px;
+    float:left;
+}
+.container{
+    width:1400px;
+    margin: 0 auto;
+    height: inherit;
+}
+
+.options-design{
+    float:right;
+    width:700px;
+    height: inherit;
+}
+
+.options-design p{
+    width: 500px;
+}
+
+.info-choice{
+    margin: 35px 0 30px 35px;
+}
+
+ .design img{
+    display: block;
+
+}
+.design{
+    float:left;
+    margin-left:33px;
+}
+
+span.name-design{
+    text-align: center;
+    color: #ff6c01;
+    font-size: 18px;
+    font-family: Calibri;
+    display: block;
+    padding-bottom: 16px;
+}
+
+.slider .owerall-second span{
+    text-align: right;
+    margin-right: 40px;
+}
+
+section span{
+    display: block;
+}
+.options-design span{
+    margin-left:30px;
+}
+
+section.design-choices{
+    padding-bottom: 30px;
+}
+
+section.criterias-choice span{
+    text-align: center;
+}
